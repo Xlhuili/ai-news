@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "vmark.excludeFolders": [
+      ".git",
+      "node_modules",
+      ".vmark"
+    ],
+    "vmark.showHiddenFiles": false,
+    "vmark.lastOpenTabs": [
+      "/Users/lixihui/ai-news/output/2026-05-02.md"
+    ],
+    "vmark.identity": {
+      "id": "e028e982-7611-4def-9b9b-cec22d78fabc",
+      "createdAt": 1777715053692,
+      "trustLevel": "untrusted"
+    }
+  }
+}
