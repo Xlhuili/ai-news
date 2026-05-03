@@ -8,8 +8,8 @@ async function summarizeOne(client: Anthropic, article: Article): Promise<string
   try {
     const response = await client.messages.create({
       model: 'claude-haiku-4-5',
-      max_tokens: 100,
-      system: 'You are a news summarizer. Given a news article title and description, write exactly one concise sentence summarizing the core news. Output only the sentence, no quotes.',
+      max_tokens: 200,
+      system: 'You are a news summarizer. Given a news article title and description, write a one-sentence summary in two formats:\n1. English: one concise sentence\n2. 中文：同一句话的中文翻译\n\nOutput format (exactly two lines, no labels, no quotes):\n<English sentence>\n<中文句子>',
       messages: [
         {
           role: 'user',
